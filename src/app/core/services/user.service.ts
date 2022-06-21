@@ -18,7 +18,7 @@ export class UserService {
   usersData:User[] = [];
   userToEdit!:User | null;
 
-  usersUrl = 'https://62aa1e323b314385544268cd.mockapi.io/rest/usuario';
+  usersUrl = 'https://62b114b9e460b79df0517198.mockapi.io/rest/usuario'
 
   constructor(
     private http: HttpClient

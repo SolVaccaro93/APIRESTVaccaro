@@ -15,11 +15,11 @@ export class UserDetailsComponent implements OnInit, OnDestroy {
   subscriptions:Subscription = new Subscription();
   loading: boolean = false;
 
-  user!:User; //Usuario a mostrar los detalles
+  user!:User;
 
   usersData!:User[]; //listado de usuarios
 
-  usr!:User | null; //datos del usuario que esta logueado en este momento
+  usr!:User | null;
 
   constructor(
     private route: ActivatedRoute,
